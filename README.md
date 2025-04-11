@@ -2,15 +2,13 @@
 
 http request
 
-## Getting Started
+Criar um aplicativo Flutter que permite ao usuário inserir um ID e buscar os dados de um usuário na API pública ReqRes.  
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+✅ O usuário digita um ID (entre 1 e 12) e clica no botão "Buscar".
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+✅ O app faz uma requisição à API pública https://reqres.in/api/users/{id}.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+✅ Se o usuário existir, exibe o nome, e-mail e foto.
+
+✅ Se o ID for inválido, exibe a mensagem "Usuário não encontrado!".
